@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Merging on indexes
 """
-
+Merging DataFrames on indexes.
 """
 # Load movies data
 movies = pd.read_csv('tmdb_movies.csv', index_col=['id'])
